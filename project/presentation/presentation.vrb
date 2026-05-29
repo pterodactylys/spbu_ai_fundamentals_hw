@@ -1,0 +1,21 @@
+\frametitle{Результаты по брендам (2)}
+
+  \small
+
+  \begin{table}
+    \centering
+    \begin{tabular}{@{}lrrr@{}}
+      \toprule
+      \textbf{Модель} & \textbf{n} & \textbf{MAPE} & \textbf{MAE, \rub} \\
+      \midrule
+      Dummy & 132 & 285.1\% & 10369 \\
+      Ridge & 132 & 46.5\% & 3685 \\
+      Decision Tree & 132 & 80.3\% & 5676 \\
+      Random Forest & 132 & 59.9\% & 4907 \\
+      CatBoost & 132 & 52.1\% & 4077 \\
+      LightGBM & 132 & 39.3\% & 2984 \\
+      \bottomrule
+    \end{tabular}
+    \caption*{Остальные}
+  \end{table}
+

@@ -1,0 +1,10 @@
+catboost
+joblib
+lightgbm
+matplotlib
+numpy
+openpyxl
+pandas
+scikit-learn
+seaborn
+jupyter
